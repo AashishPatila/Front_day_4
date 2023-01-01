@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+  }
+  /* .big_countainer{
+    background-color: rgb(5, 3, 1);
+  } */
+
+  /* Sidebar */
+   
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+/* Login button */
+
+/* .login{
+  align-items: flex-end;
+  display: inline;
+} */
+
+/* .log{
+  text-align: right;
+}
+
+.log_button {
+ 
+  margin-right: 10px;
+  margin-top: 0;
+  padding: 0;
+  display: inline;
+  position:sticky;
+} */
+
+/* .logout_btn{
+  padding: 15px;
+  background: #19B3D3;
+  text-decoration: none;
+  float: right;
+  margin-top: -10px;
+  margin-right: 40px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  } */
+
+
+.logo_image{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+#header{ 
+    text-align: center;  
+    float: right;
+    margin-right: 40%;
+    
+}
+
+.div_contant{
+    /* margin-right: 40%; */
+    /* padding: 10px 10px; */
+    padding-top: 10px;
+    width: 80%;
+    height: 100px;
+    background-color: #7bc0d1;
+    float: left;
+}
+.image1{
+    width: 150px;
+    height: 150px;
+   align-items: center;
+   justify-content: center;
+  }
+
+.paragraph{
+    float: left;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+  width: 100%;
+  max-height: 10%;
+}
+
+
+/* flexbox */
+
+.Flex{
+  margin-left: 45%;
+  border-style: 2px solid;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  top: 200px;
+  text-align: center;
+}
+
+.flex-box{
+  width: 50px;
+  height: 50px;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxbf8nwGPfgU9Qlo7NcQ_9Qc27nNfJVuDjs1yMd_1V&s);
+  color: rgb(20, 112, 218);
+  font-size: 2rem;
+  align-items: center;
+  line-height: 200px;
+  border-radius: 5%;
+  margin: 10px;
+  
+}
+
+

@@ -1,0 +1,248 @@
+<html>
+<title>SideBar Menu</title>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        form {
+    /* background-image: url(https://i.stack.imgur.com/LR5ab.png); */
+    background-color: rgb(219, 212, 212);
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px 20px;
+}
+#registration{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main_form {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.main_form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.main_form input{
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+.main_form select{
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+.main_form input[type="radio"],
+.main_form input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+.rrr{
+    display: flex;
+}
+
+
+ .submit {
+    background-color: #0fea30;
+    border: 1px solid #777;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+    </style>
+</head>
+
+<body> 
+    <input type="checkbox" id="menu">
+    <nav> <label><img src="/Team velocity.jpeg" id="logo_image" alt=""></label>
+        <ul>
+            <button class="logout_btn" id="log_in" onclick="openForm()">Log in</button>
+            <button class="logout_btn" id="log_in" onclick="opForm()">Sign in</button>
+        </ul> <label for="menu" class="menu-bar"> <i class="fa fa-bars"></i> </label>
+    </nav>
+    <div class="side-menu">
+       
+        <a href="index.html"><i class="fa fa-home"></i><span>Home</span></a> 
+        <a href="#"><i class="fa fa-registration"></i><span>Registration</span></a> 
+        <a href="team.html"><i class="fa fa-table"></i><span>Team Member</span></a> 
+        <a href="#"><i class="fa fa-contact"></i><span>Contact</span></a> 
+    
+        <a href="#" class="Login"><span>Log in</span></a>
+        <a href="#" class="signin"><span>Sign in</span></a>
+    </div>
+    <!-- <div class="data"></div> -->
+
+     <div>
+        <h1 id="registration">Registration</h1>
+  
+    <form id="form">
+ 
+        <div class="main_form">
+            <label for="name" id="label-name">Enter Your Name
+            </label>
+            <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+  
+        <div class="main_form">
+            <label for="email" id="label-email">Enter Your Email.id
+            </label>
+            <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+
+        <div class="main_form">
+            <label for="no" id="label-no"> Enter Your Mobile Number
+            </label>
+            <input type="text" id="no" placeholder="Enter your number" />
+        </div>
+  
+        <div class="main_form">
+            <label for="age" id="label-age">Enter your Age
+            </label>
+            <input type="text" id="age" placeholder="Enter your age" />
+        </div>
+  
+        <div class="main_form">
+            <label for="role" id="label-role">Enter your year
+            </label>
+             
+            <select name="role" id="role">
+                <option value="First Year">First Year</option>
+                <option value="Second Year">Second Year</option>
+                <option value="Third Year">Third Year</option>
+                <option value="Final year">Final year</option>
+            </select>
+        </div>
+  
+        <div class="main_form">
+            <div class="rrr">
+            <label>Gender
+            </label>
+ 
+            <label for="re_1">
+                <input type="radio"id="re_1 "name="re">Male</input>
+            </label>
+
+            <label for="re_2">
+                <input type="radio" id="re_2" name="re">Female</input>
+            </label>
+        </div>
+           
+        </div>
+  
+        <div class="main_form">
+            <div class="rrr">
+             <label>Click Your Skills
+                
+            </label> 
+           
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">AutoCAD</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">Solidwork</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">MasterCAM</input>
+            </label>
+        </div>
+        </div>
+  
+        <button type="submit" value="submit" class="submit">
+            Submit
+        </button>
+    </form>
+     </div>
+
+    <!-- footer  -->
+
+    <footer>
+        <!-- <div class="footer-content">
+          <h3>TEAM VELOCITY</h3>
+          <ul class="socials">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+          </ul>
+        </div> -->
+        <div class="footer-bottom">
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+          <p>Aashish Patil
+            <span></span></p>
+        </div>
+      </footer>
+  
+
+    
+
+
+          <!-- popup -->
+
+      <div class="pop_login">
+        <div class="pop_form" id="forn_id_pop">
+          <form action="/action_page.php" class="container_form">
+            <h2>Log in</h2>
+            <label for="email">
+            <strong>Enter User Name or Email</strong>
+            </label>
+            <input type="text" id="email" placeholder="Your Email" name="email" required>
+            <label for="psw">
+            <strong>Password</strong>
+            </label>
+            <input type="password" id="psw" placeholder="Your Password" name="psw" required>
+            <button type="submit" class="btn">Log in</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Back</button>
+          </form>
+        </div>
+      <div class="pop_sign">
+        <div class="pop_sign_in" id="sign_id_pop">
+          <form action="/action_page.php"     class="signin_container">
+              <h2>Sign in</h2>
+              <label for="email">
+                <strong>Enter E-mail</strong>
+              </label>
+                <input type="text" id="email" placeholder="Your Email" name="email" required>
+              <label for="pass">
+                  <strong> Password</strong>
+              </label>
+                <input type="text" id="Enter password" placeholder="Your password" name="pass" required>
+            <label for="psw">
+                <strong> Confirm Password</strong>
+            </label>
+              
+              <input type="password" id="psw" placeholder="Confirm Password" name="psw" required>
+              <button type="submit" class="btn">SignUp</button>
+              <button type="button" class="btn cancel" onclick="form_close()">Back</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
+</body>
+
+</html>

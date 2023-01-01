@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <div class="subbrand">TEAM</div>
+        <div class="brand">VELOCITY</div>
+        <div class="menu-right">
+          <!-- <span onclick="Myfunction()">&#9776;</span> -->
+          <ul id="menu">
+            <button class="logout_btn" id="logid" onclick="openForm()">Log in</button>
+            <button class="logout_btn" id="logid" onclick="opForm()">Sign in</button>
+            <!-- <li><a href="#">Log in</a></li>
+            <li><a href="#">sign in</a></li> -->  
+          </ul>
+        </div>
+      </div>
+      <!-- <label for="check">
+        <i class="fas fa-bars" id="sidebar_btn"></i>
+           </label> -->
+    </header>
+    
+  
+    <!-- sidebar -->
+    <section>
+      <div class="sidebar" >
+        <div class="siderbar1">
+          <ul class="sideul">
+            <li><a href="index.html" class="fa fa-home" aria-hidden="true">Home</a></li>
+            <li><a href="registration.html" >Registration</a></li>
+            <!-- <li><a href="#registration.html" class="fas fa-th">Registration</a></li> -->
+            <li><a href="member_team.html" class="fas fa-info-circle">Team member</a></li>
+            <li><a href="#contact" class="fas fa-info-circle">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contant -->
+
+    <div class="contant">
+      <h1><u><b>TEAM VELOCITY</b></u></h1><br><br>
+      <img src="f1 bg.jpg" class="image_para" alt=""><br><br>
+      <p class="para_section">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem cupiditate, quaerat ipsa est odit similique laudantium commodi saepe sed omnis fuga, illo asperiores assumenda excepturi eligendi expedita numquam sequi blanditiis iure ex corrupti iusto. Commodi corrupti, ratione nihil dicta doloremque quo provident iusto quas omnis accusamus, id perspiciatis eligendi velit. Esse quisquam, consequatur deserunt architecto a voluptatem doloribus? Reprehenderit cum tempora pariatur sit vero. Exercitationem, consequatur soluta provident quidem minus rerum quos nostrum corporis pariatur ab ipsam saepe incidunt optio, sed neque corrupti fugit dolore a laborum repellendus ut mollitia libero nesciunt fugiat! Molestias nobis necessitatibus optio, sed voluptatum minima.</p><br><br>
+
+    </div><br><br><br>
+
+    <div class="para">
+     
+      <section class="main_section">
+        <section>
+          <!-- <img src="/f1 bg.jpg" class="image_para" alt=""><br><br> -->
+        </section>
+        <section>
+          <!-- <p class="para_section">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem cupiditate, quaerat ipsa est odit similique laudantium commodi saepe sed omnis fuga, illo asperiores assumenda excepturi eligendi expedita numquam sequi blanditiis iure ex corrupti iusto. Commodi corrupti, ratione nihil dicta doloremque quo provident iusto quas omnis accusamus, id perspiciatis eligendi velit. Esse quisquam, consequatur deserunt architecto a voluptatem doloribus? Reprehenderit cum tempora pariatur sit vero. Exercitationem, consequatur soluta provident quidem minus rerum quos nostrum corporis pariatur ab ipsam saepe incidunt optio, sed neque corrupti fugit dolore a laborum repellendus ut mollitia libero nesciunt fugiat! Molestias nobis necessitatibus optio, sed voluptatum minima.</p><br><br> -->
+        </section>
+      </section>
+    </div> 
+
+      <!-- footer -->
+        
+      <!-- <footer>
+        <div class="footer-content"> -->
+          <!-- <h3>TEAM VELOCITY</h3> -->
+          <!-- <ul class="socials">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>Aashish Patil
+            <span></span></p>
+        </div>
+      </footer> -->
+
+     
+
+      <!-- popup -->
+
+      <div class="pop_login">
+        <div class="pop_form" id="forn_id_pop">
+          <form action="/action_page.php" class="container_form">
+            <h2>Log in</h2>
+            <label for="email">
+            <strong>Enter User Name or Email</strong>
+            </label>
+            <input type="text" id="email" placeholder="Your Email" name="email" required>
+            <label for="psw">
+            <strong>Password</strong>
+            </label>
+            <input type="password" id="psw" placeholder="Your Password" name="psw" required>
+            <button type="submit" class="btn">Log in</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Back</button>
+          </form>
+        </div>
+      <div class="pop_sign">
+        <div class="pop_sign_in" id="sign_id_pop">
+          <form action="/action_page.php"     class="signin_container">
+              <h2>Sign in</h2>
+              <label for="email">
+                <strong>Enter E-mail</strong>
+              </label>
+                <input type="text" id="email" placeholder="Your Email" name="email" required>
+              <label for="pass">
+                  <strong> Password</strong>
+              </label>
+                <input type="text" id="Enter password" placeholder="Your password" name="pass" required>
+            <label for="psw">
+                <strong> Confirm Password</strong>
+            </label>
+              
+              <input type="password" id="psw" placeholder="Confirm Password" name="psw" required>
+              <button type="submit" class="btn">SignUp</button>
+              <button type="button" class="btn cancel" onclick="form_close()">Back</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    <script src="script.js"></script> 
+
+  </body>
+</html>

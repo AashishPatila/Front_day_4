@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="member.css">
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <div class="subbrand">TEAM</div>
+        <div class="brand">VELOCITY</div>
+        <div class="menu-right">
+          <span onclick="Myfunction()">&#9776;</span>
+          <ul id="menu">
+            <button class="logout_btn" onclick="openForm()">Log in</button>
+            <button class="logout_btn" onclick="opForm()">Sign in</button>
+            <!-- <li><a href="#">Log in</a></li>
+            <li><a href="#">sign in</a></li> -->  
+          </ul>
+        </div>
+      </div>
+    </header>
+  
+    <!-- sidebar -->
+    <section>
+      <div class="sidebar">
+        <div class="siderbar1">
+          <ul class="sideul">
+            <li><a href="index.html" class="fa fa-home" aria-hidden="true">Home</a></li>
+            <li><a href="registration.html" >Registration</a></li>
+            <!-- <li><a href="#registration.html" class="fas fa-th">Registration</a></li> -->
+            <li><a href="member_team.html" class="fas fa-info-circle">Team member</a></li>
+            <li><a href="#contact" class="fas fa-info-circle">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contant -->
+
+    <div class="table"><br><br><br>
+        <h1 align="center"><u>Team Member</u></h1>
+        <table border="2" align="center" class="inner_table" >
+            <th bg color="#008000" id="upper">S.no</th>
+            <th id="upper">Name</th>
+            <th id="upper">Year</th>
+            <th id="upper">Branch</th>
+            <th id="upper">Course</th>
+            <th id="upper">Mobile.no</th>
+            <th id="upper">city</th>
+            <th id="upper">position</th>
+    
+            <tr>
+                <td align="center" >1</td>
+                <td align="center" id="name">Aashish</td>
+                <td align="center">4</td>
+                <td align="center">Mechanical</td>
+                <td align="center">B.tech</td>
+                <td align="center">9109307028</td>
+                <td align="center">Indore</td>
+                <td align="center">Member</td>
+                
+            </tr>
+            <tr>
+                <td align="center" >2</td>
+                <td align="center" id="name">Durgesh</td>
+                <td align="center">4</td>
+                <td align="center">Mechanical</td>
+                <td align="center">B.tech</td>
+                <td align="center">9565555666</td>
+                <td align="center">Indore</td>
+                <td align="center">Member</td>
+                
+            </tr>
+            <tr>
+                <td align="center" >3</td>
+                <td align="center" id="name">Shubham</td>
+                <td align="center">4</td>
+                <td align="center">Mechanical</td>
+                <td align="center">B.tech</td>
+                <td align="center">79655655655</td>
+                <td align="center">Indore</td>
+                <td align="center">Member</td>
+                
+            </tr>
+            <tr>
+                <td  align="center" >4</td>
+                <td align="center" id="name">Shruti</td>
+                <td align="center">4</td>
+                <td align="center">Mechanical</td>
+                <td align="center">B.tech</td>
+                <td align="center">85656262526</td>
+                <td align="center">Indore</td>
+                <td align="center">Captain</td>
+                
+            </tr>
+            <tr>
+                <td align="center" >5</td>
+                <td align="center" id="name">Sourabh</td>
+                <td align="center">4</td>
+                <td align="center">Mechanical</td>
+                <td align="center">B.tech</td>
+                <td align="center">7598529585</td>
+                <td align="center">Indore</td>
+                <td align="center">Member</td>
+                
+            </tr>
+        </table>
+
+     
+
+      <!-- footer -->
+        
+      <!-- <footer>
+        <div class="footer-content"> -->
+          <!-- <h3>TEAM VELOCITY</h3> -->
+          <!-- <ul class="socials">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>Aashish Patil
+            <span></span></p>
+        </div>
+      </footer> -->
+
+     
+
+      <!-- popup -->
+
+      <div class="pop_login">
+        <div class="pop_form" id="forn_id_pop">
+          <form action="/action_page.php" class="container_form">
+            <h2>Log in</h2>
+            <label for="email">
+            <strong>Enter User Name or Email</strong>
+            </label>
+            <input type="text" id="email" placeholder="Your Email" name="email" required>
+            <label for="psw">
+            <strong>Password</strong>
+            </label>
+            <input type="password" id="psw" placeholder="Your Password" name="psw" required>
+            <button type="submit" class="btn">Log in</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Back</button>
+          </form>
+        </div>
+      <div class="pop_sign">
+        <div class="pop_sign_in" id="sign_id_pop">
+          <form action="/action_page.php"     class="signin_container">
+              <h2>Sign in</h2>
+              <label for="email">
+                <strong>Enter E-mail</strong>
+              </label>
+                <input type="text" id="email" placeholder="Your Email" name="email" required>
+              <label for="pass">
+                  <strong> Password</strong>
+              </label>
+                <input type="text" id="Enter password" placeholder="Your password" name="pass" required>
+            <label for="psw">
+                <strong> Confirm Password</strong>
+            </label>
+              
+              <input type="password" id="psw" placeholder="Confirm Password" name="psw" required>
+              <button type="submit" class="btn">SignUp</button>
+              <button type="button" class="btn cancel" onclick="form_close()">Back</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    <script src="script.js"></script> 
+
+  </body>
+</html>
